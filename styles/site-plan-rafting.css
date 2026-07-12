@@ -34,7 +34,6 @@ Fonts are separated by a & */
 body {
   max-width: 960px;
   margin: 0 auto;
-  padding: 4em;
   font-size: 18px;
   text-align: center;
 }
@@ -120,6 +119,9 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+nav img {
+  align-self: left;
 }
 .sitemap {
   display: grid;
