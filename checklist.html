@@ -21,19 +21,21 @@
     </header>
 
     <main>
-      <section>
-        <h1>French Career Development Dashboard</h1>
-        <p>
-          Track your milestones, progress, and prepare your profile for
-          international opportunities.
-        </p>
-        <p>Your personalized roadmap is updated daily based on your goals.</p>
+      <section class="hero">
+        <div>
+          <h1>French Career Development Dashboard</h1>
+          <h3>
+            Track your milestones, progress, and prepare your profile for
+            international opportunities. Your personalized roadmap is updated daily based on your goals.
+          </h3>
+        </div>
+        <div>
+          <img src="images/Checklist.png" alt="Dashboard Illustration" />
+        </div>
       </section>
 
-      <hr />
-
-      <section>
-        <h2>YOUR AI-GENERATED MILESTONES</h2>
+      <section class="resource-card">
+        <h2>Your AI-Generated Milestones</h2>
         <div class="vocab-layout">
           <form>
             <ul>
@@ -64,19 +66,17 @@
             </ul>
           </form>
           <div>
-            <img src="images/Checklist.png" alt="picture1" class="vocab-image" />
+            <img src="images/Checklist.png" alt="Milestones Illustration" class="vocab-image" />
           </div>
         </div>
       </section>
 
-      <hr />
-
-      <h2>WHY TRACKING MATTERS</h2>
       <section class="why-section">
         <div>
-          <img src="images/Why_tracking_matters.png" alt="picture2" />
+          <img src="images/Why_tracking_matters.png" alt="Why tracking matters graphic" />
         </div>
         <div>
+          <h2>Why Tracking Matters</h2>
           <p>
             Consistency is key when learning a business language. Keeping track of
             your daily achievements reinforces memory retention and builds
@@ -95,36 +95,36 @@
         </div>
       </section>
 
-      <hr />
-
-      <section>
-        <h2>YOUR FRENCH LEVEL PROGRESS</h2>
-        <div>
-          <label for="progress-a1">A1 Beginner</label>
-          <progress id="progress-a1" value="100" max="100">100%</progress>
-          <span>100%</span>
+      <section class="resource-card" style="text-align: left; padding: 2rem;">
+        <h2 style="text-align: center;">Your French Level Progress</h2>
+        <div style="margin-bottom: 1.5rem;">
+          <label for="progress-a1" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">A1 Beginner</label>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <progress id="progress-a1" value="100" max="100" style="flex-grow: 1;"></progress>
+            <span style="font-weight: bold;">100%</span>
+          </div>
         </div>
-        <div>
-          <label for="progress-a2">A2 Elementary</label>
-          <progress id="progress-a2" value="60" max="100">60%</progress>
-          <span>60%</span>
+        <div style="margin-bottom: 1.5rem;">
+          <label for="progress-a2" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">A2 Elementary</label>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <progress id="progress-a2" value="60" max="100" style="flex-grow: 1;"></progress>
+            <span style="font-weight: bold;">60%</span>
+          </div>
         </div>
-        <div>
-          <label for="progress-b1">B1 Intermediate</label>
-          <progress id="progress-b1" value="20" max="100">20%</progress>
-          <span>20%</span>
+        <div style="margin-bottom: 1.5rem;">
+          <label for="progress-b1" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">B1 Intermediate</label>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <progress id="progress-b1" value="20" max="100" style="flex-grow: 1;"></progress>
+            <span style="font-weight: bold;">20%</span>
+          </div>
         </div>
       </section>
 
-      <br />
-
-      <section>
-        <p>Need to update your job target?</p>
-        <p><a href="#">Go to Resources to re-generate</a></p>
+      <section class="resource-card resource-card--form" style="text-align: center; padding: 2rem;">
+        <h3>Need to update your job target?</h3>
+        <p><a href="resources.html" class="hero-cta" style="display: inline-block; margin-top: 0.5rem;">Go to Resources to re-generate</a></p>
       </section>
     </main>
-
-    <hr />
 
     <footer>
       <p>&copy; CareerFrench | Privacy</p>
