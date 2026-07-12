@@ -8,119 +8,99 @@
   </head>
   <body>
     <header>
-      <img src="images/Logo-cropped.png" alt="CareerFrench Logo" />
       <nav>
+        <a href="index.html" class="brand-link">
+          <img src="images/Logo-cropped.png" alt="CareerFrench Logo" />
+        </a>
         <ul>
-          <a href="index.html">Home</a>
-          <a href="resources.html">Resources</a>
-          <a href="checklist.html">Checklist</a>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="checklist.html">Checklist</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-        <hr />
-      <section>
-        <div id="hero">
-          <h1>
-            French Learning Resources — Career-Focused Tools for Every Learner
-          </h1>
-          <p>
-            When you submit a job URL to the CareerFrench AI chatbot, it scans
-            the posting for rolespecific language and generates a custom
-            vocabulary list built for that exact position. Each word comes with
-            pronunciation guides, an example sentence in a workplace context,
-            and a note on why it is relevant to your target job. No two lists
-            are the same because no two jobs are identical.
-          </p>
+
+    <main class="resources-page">
+      <section class="resources-intro">
+        <h1>French Learning Resources</h1>
+        <p>
+          When you submit a job URL to the CareerFrench AI chatbot, it scans
+          the posting for role-specific language and generates a custom
+          vocabulary list built for that exact position. Each word comes with
+          pronunciation guides, an example sentence in a workplace context,
+          and a note on why it is relevant to your target job.
+        </p>
+      </section>
+
+      <section class="resource-card">
+        <h3>Your Custom Vocabulary List</h3>
+        <div class="vocab-layout">
+          <div class="vocab-list">
+            <div class="vocab-item">
+              <strong>Adaptabilité</strong>
+              <span>Adjusting to change with confidence</span>
+            </div>
+            <div class="vocab-item">
+              <strong>Collaboration</strong>
+              <span>Working effectively with a team</span>
+            </div>
+            <div class="vocab-item">
+              <strong>Communication</strong>
+              <span>Sharing ideas clearly in a professional setting</span>
+            </div>
+            <div class="vocab-item">
+              <strong>Précision</strong>
+              <span>Paying careful attention to details</span>
+            </div>
+          </div>
+          <img src="images/Vocab_list.png" alt="Vocabulary List" class="vocab-image" />
         </div>
       </section>
-      <hr />
-      <section>
-        <div class="vocab_list">
-          <h3>Your Custom Vocabulary List</h3>
-          <div class="vocab_item">
-            <p>Name</p>
-            <p>Definition</p>
+
+      <section class="resource-card">
+        <h3>Grammar Essentials</h3>
+        <p>
+          Focus on grammar patterns that matter most in professional settings
+          — formal email writing, meeting vocabulary, and professional
+          presentations in French. We skip the grammar rules you will never
+          use at work so you can focus on what employers will actually hear
+          and read.
+        </p>
+      </section>
+
+      <section class="resource-card listening-card">
+        <h3>Listening and Practice</h3>
+        <div class="listening-layout">
+          <img src="images/Listening_and_practice.png" alt="Listening and Practice" class="listening-image" />
+          <div class="listening-content">
+            <p>
+              Practice pronunciation, tone, and workplace phrases with a short
+              listening exercise and guided repetition built around the job you
+              want.
+            </p>
+            <audio controls>
+              <source src="https://cdn.freesound.org/previews/46/46992_514283-lq.ogg" type="audio/ogg" />
+              <source src="https://cdn.freesound.org/previews/46/46992_514283-lq.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
           </div>
-          <div class="vocab_item">
-            <p>Name</p>
-            <p>Definition</p>
-          </div>
-          <div class="vocab_item">
-            <p>Name</p>
-            <p>Definition</p>
-          </div>
-          <div class="vocab_item">
-            <p>Name</p>
-            <p>Definition</p>
-          </div>
-          <div class="vocab_item">
-            <p>Name</p>
-            <p>Definition</p>
-          </div>
-          <img src="images/Vocab_list.png" alt="Vocabulary List" />
         </div>
       </section>
-      <hr />
-      <section>
-        <div class="grammar_esentials">
-          <h3>Grammar Essentials</h3>
-          <p>
-            Focus on grammar patterns that matter most in professional settings
-            — formal email writing, meeting vocabulary, and professional
-            presentations in French. We skip the grammar rules you will never
-            use at work so you can focus on what employers will actually hear
-            and read.
-          </p>
-        </div>
+
+      <section class="resource-card resource-card--form">
+        <h3>Generate Your Personal Content</h3>
+        <p>
+          Paste a job description or company URL to generate a focused set of
+          vocabulary, grammar highlights, and a personalized checklist.
+        </p>
+        <form class="resource-form">
+          <input type="text" placeholder="Paste job posting or company URL here..." />
+          <button type="submit" class="button">Generate</button>
+        </form>
+        <p class="note">* Generates vocab, grammar focus, and checklist</p>
       </section>
-      <hr />
-      <section>
-        <div class="listening_and_practice">
-          <h3>Listening and Practice</h3>
-          <img
-            src="images/Listening_and_practice.png"
-            alt="Listening and Practice"
-          />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
-            reprehenderit vel consequatur. Doloremque recusandae, sed quae enim,
-            aliquid itaque, at maiores sunt voluptate soluta dolor? Quae, ad.
-            Non, itaque consequatur?
-          </p>
-          <audio controls>
-            <source
-              src="https://cdn.freesound.org/previews/46/46992_514283-lq.ogg"
-              type="audio/ogg"
-            />
-            <source
-              src="https://cdn.freesound.org/previews/46/46992_514283-lq.mp3"
-              type="audio/mpeg"
-            />
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-      </section>
-      <hr />
-      <section>
-        <div class="generate_content">
-          <h3>Generate Your Personal Content</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <forum action="#" method="post">
-            <input
-              type="text"
-              placeholder="Paste job posting or company URL here..."
-            /><br />
-            <button type="submit" class="button">Generate</button>
-          </forum>
-          <p>* Generates vocab, grammar focus, and checklist</p>
-        </div>
-      </section>
-      <hr />
     </main>
+
     <footer>
       <p>&copy; CareerFrench | Privacy</p>
     </footer>
