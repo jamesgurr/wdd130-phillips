@@ -1,3 +1,4 @@
+/* All pages */
 :root {
   --primary-color: #003580;
   --secondary-color: #EDEFF4;
@@ -77,6 +78,7 @@ main {
   padding: 0 1rem 3rem;
 }
 
+/* Index */
 .home-page {
   text-align: left;
 }
@@ -564,6 +566,49 @@ audio {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+/* Checklist */
+.checklist-page {
+  text-align: left;
+}
+
+.checklist-page main {
+  max-width: 1000px;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.checklist-page section {
+  margin: 0 auto 1.4rem;
+  max-width: 860px;
+}
+
+.checklist-page h1,
+.checklist-page h2 {
+  text-align: center;
+}
+
+.checklist-page form ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.checklist-page input[type="checkbox"] {
+  margin-right: 0.6rem;
+}
+
+.checklist-page progress {
+  width: min(100%, 280px);
+  margin: 0.35rem 0.7rem 0.35rem 0;
+}
+
+.checklist-page img {
+  max-width: 100%;
+  margin-top: 1rem;
+  border-radius: 0.9rem;
 }
 
 @media (max-width: 900px) {
